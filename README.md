@@ -24,7 +24,17 @@ Raw sequence reads and count matrices generated in this study are available at G
  	- R: v4.3.3, clusterProfiler==4.10.1
 
 ## Analysis pipeline
-Following sequencing, two 10x standard FASTQ libraries are generated: the mRNA library and the combinatorial index library. For the mRNA library, we utilize the `cellranger count` pipeline to perform standardized preprocessing, yielding a cell-by-gene expression matrix. For the combinatorial index library, we have established a standardized analytical pipeline from scratch, encompassing <b>data preprocessing</b>, <b>quality control (QC)</b>, and <b>cell-cell interaction analysis</b>.
+Following sequencing, two 10x standard FASTQ libraries are generated: the mRNA library and the combinatorial index library. For the mRNA library, we utilize the `cellranger count` pipeline to perform standardized preprocessing, yielding a cell-by-gene expression matrix. 
+```
+cellranger count \
+--id=${id} \
+--sample=${sample} \
+--fastqs=${fastqs} \
+--transcriptome=${transcriptome} \
+--maxjobs=1
+```
+
+For the combinatorial index library, we have established a standardized analytical pipeline from scratch, encompassing <b>data preprocessing</b>, <b>quality control (QC)</b>, and <b>cell-cell interaction analysis</b>.
 
 
 
