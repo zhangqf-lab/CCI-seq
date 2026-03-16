@@ -1,4 +1,4 @@
-
+# :sparkles: SMRTnet :sparkles: 
 
 This repository provides the official implementation of the data analysis pipeline described in our study：
 
@@ -18,8 +18,23 @@ Jupyter notebooks for CCI-seq data analysis
 
 Processed files are available for download at https://doi.org/10.5281/zenodo.17445811
 
+## :round_pushpin: Cite us
+<!--If you found this package useful, please cite [our paper](xxx)-->
+If you use this tool in your research, we kindly ask that you cite [our paper](https://www.nature.com/articles/s41587-025-02942-z): 
+```
+Title: Resolving cell-cell interaction networks and their molecular logic in complex tissues
+
+Author: Lei Tang, Kang Tian, Xiaolei Fu, Yingjia Xu, Jincheng Wu, Jinsong Zhang, Xi-Wen Wang, Chunxiang Ye, Qiong Wu, Wei Wu, Changjiang Feng and Qiangfeng Cliff Zhang
+
+Journal: xxx
+
+Paper link: xxx
+```
 
 <!-- CONTACT -->
-## Contact
+## :telephone: Contact us
+For questions about the paper or code, please contact:
+
 Kang Tian - tiankang@mail.tsinghua.edu.cn
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
