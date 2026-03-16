@@ -27,7 +27,8 @@ Raw sequence reads and count matrices generated in this study are available at G
 Following sequencing, two 10x standard FASTQ libraries are generated: the mRNA library and the combinatorial index library. 
 
 For the mRNA library, we utilize the `cellranger count` pipeline to perform standardized preprocessing, yielding a cell-by-gene expression matrix.
-For the combinatorial index library, we
+
+For the combinatorial index library, we have established a standardized analytical pipeline from scratch, encompassing data preprocessing, quality control (QC), and cell-cell interaction analysis.
 
 
 
