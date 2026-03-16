@@ -57,7 +57,9 @@ Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to
 
 - **Step 3: cell-cell interaction analysis** 
 
+<p align="justify" >
 We use CellIDs to infer whether cells are from the same clump and introduce two metrics: `Frequency` and `Clump` to evaluate the interaction strength between cell-types. Detailed definitions of these metrics are provided in the Methods section in our paper.
+</p>
 
 <p align="justify" >
 <b>We have provided analysis examples for multiple samples in the accompanying notebooks (https://github.com/zhangqf-lab/CCI-seq/tree/main/notebook) for your reference.</b>
