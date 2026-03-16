@@ -5,7 +5,7 @@ This repository provides the official implementation of the data analysis pipeli
 ## :dart: Resolving cell-cell interaction networks and their molecular logic in complex tissues
 
 <p align="justify" >
-Cells in complex organisms function through extensive interactions, yet mapping these interaction networks at scale remains challenging. Here, we present CCI-seq, a high-throughput method to unbiasedly capture <ins>cell</ins>-<ins>cell</ins> </ins>interactions</ins> by <b>combining cell clump combinatorial indexing with single-cell sequencing</b>.
+Cells in complex organisms function through extensive interactions, yet mapping these interaction networks at scale remains challenging. Here, we present CCI-seq, a high-throughput method to unbiasedly capture <ins>cell</ins>-<ins>cell</ins> <ins>interactions</ins> by <b>combining cell clump combinatorial indexing with single-cell sequencing</b>.
 </p>
 <p align="center"><img src="figs/CCI-seq.png" width=100% /></p>
 <p align="center" > <b>Overview of CCI-seq</b> </p>
@@ -24,7 +24,7 @@ If you use this tool in your research, we kindly ask that you cite [our paper](h
 ```
 Title: Resolving cell-cell interaction networks and their molecular logic in complex tissues
 
-Author: Lei Tang, Kang Tian, Xiaolei Fu, Yingjia Xu, Jincheng Wu, Jinsong Zhang, Xi-Wen Wang, Chunxiang Ye, Qiong Wu, Wei Wu, Changjiang Feng and Qiangfeng Cliff Zhang
+Author: Tang L, Tian K, Fu X, Xu Y, Wu J, Zhang J, Wang X, Ye C, Wu Q, Wu W, Feng C and Zhang QC
 
 Journal: xxx
 
