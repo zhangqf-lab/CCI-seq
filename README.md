@@ -16,12 +16,12 @@ Raw sequence reads and count matrices generated in this study are available at G
 ## Requirements
 - [OS] Linux (official)
 - [Software]
-    - seqkit: 2.5.1    
-    - cutadapt: 4.4
-    - umi_tools: 1.1.4
-    - cellranger: 7.1.0
-	- Python: 3.8.5, numpy==1.23.1, pandas==1.5.1, seaborn==0.13.2, scanpy==1.9.1, scipy==1.10.1, matplotlib==3.7.5, scalex==1.0.2, sklearn==1.2.1, liana==1.5.0
- 	- R: 4.3.3, clusterProfiler==4.10.1
+    - seqkit: v2.5.1    
+    - cutadapt: v4.4
+    - umi_tools: v1.1.4
+    - cellranger: v7.1.0
+	- Python: v3.8.5, numpy==1.23.1, pandas==1.5.1, seaborn==0.13.2, scanpy==1.9.1, scipy==1.10.1, matplotlib==3.7.5, scalex==1.0.2, sklearn==1.2.1, liana==1.5.0
+ 	- R: v4.3.3, clusterProfiler==4.10.1
 
 ## Analysis pipeline
 
