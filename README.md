@@ -51,7 +51,7 @@ This step involves deduplication, adapter trimming, denoising, and format standa
 <p align="justify" >
 This step aligns the mRNA library with the combinatorial index library using cell barcodes.</p> 
 <p align="justify" >
-:bangbang: <b>Note</b>: within the 10x Genomics 3’ V3.1 system, barcodes assigned to the same cell exhibit a 2-bp discrepancy between the mRNA and index libraries, as detailed in (xxxxxx). </p>
+:bangbang: <b>Note</b>: For the 10x Genomics 3’ V3.1 Kit employed in our study, a 2-bp discrepancy exists between the corresponding barcodes of the two libraries (refer to xxx for the mapping relationship). </p>
 <p align="justify" >
 Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to rank 2 index ratio, and cell clump sizes—to define a unique CellID for each individual cell.</p>
 
