@@ -26,9 +26,8 @@ Raw sequence reads and count matrices generated in this study are available at G
 ## Analysis pipeline
 <p align="justify" >
 Following sequencing, two 10x standard FASTQ libraries are generated: <b>the mRNA library</b> and <b>the combinatorial index library</b>. </p>
-<!-- <p align="justify" > -->
-For the mRNA library, we utilize the `cellranger count` pipeline to perform standardized preprocessing, yielding a cell-by-gene expression matrix. 
-<!-- </p> -->
+<p align="justify" >
+For the mRNA library, we utilize the ``cellranger count`` pipeline to perform standardized preprocessing, yielding a cell-by-gene expression matrix. </p>
 
 ```
 cellranger count \
@@ -41,6 +40,7 @@ cellranger count \
 <p align="justify" >
 For the combinatorial index library, we have established a standardized analytical pipeline from scratch, encompassing <b>data preprocessing</b>, <b>quality control (QC)</b>, and <b>cell-cell interaction analysis</b>.</p>
 
+```
 - **Step 1: data preprocessing** 
 <p align="justify" >
 This step involves deduplication, adapter trimming, denoising, and format standardization. It converts the input FASTQ files into a `processed.txt` file, the content of which is shown below: </p>
@@ -59,6 +59,7 @@ Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to
 - **Step 3: cell-cell interaction analysis** 
 <p align="justify" >
 We use CellIDs to infer whether cells are from the same clump and introduce two metrics: `Frequency` and `Clump` to evaluate the interaction strength between cell-types. Detailed definitions of these metrics are provided in the Methods section in our paper.</p>
+```
 
 ## :round_pushpin: Cite us
 If you find this study useful for your research, we kindly ask that you cite our paper:
