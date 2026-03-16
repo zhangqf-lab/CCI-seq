@@ -10,25 +10,22 @@ Cells in complex organisms function through extensive interactions, yet mapping 
 <p align="center"><img src="figs/CCI-seq.png" width=100% /></p>
 <p align="center" > <b>Overview of CCI-seq</b> </p>
 
-## Resolving cell-cell interaction networks and their molecular logic in complex tissues
-
-## Description
-Jupyter notebooks for CCI-seq data analysis
-
+## Datasets
+Raw sequence reads and count matrices generated in this study are available at GSA with accession number PRJCA034558. All processed data supporting the key findings of this study are available at Zenodo repository (https://doi.org/10.5281/zenodo.17445811) or from the corresponding author upon reasonable request. The publicly available mouse small intestine Visium HD dataset can be accessed from the 10x Genomics website.
 
 Processed files are available for download at https://doi.org/10.5281/zenodo.17445811
 
 ## :round_pushpin: Cite us
-<!--If you found this package useful, please cite [our paper](xxx)-->
-If you use this tool in your research, we kindly ask that you cite [our paper](https://www.nature.com/articles/s41587-025-02942-z): 
+If you find this study useful for your research, we kindly ask that you cite our paper:
 ```
-Title: Resolving cell-cell interaction networks and their molecular logic in complex tissues
-
-Author: Tang L, Tian K, Fu X, Xu Y, Wu J, Zhang J, Wang X, Ye C, Wu Q, Wu W, Feng C and Zhang QC
-
-Journal: xxx
-
-Paper link: xxx
+@article{Brixi2026,
+    author  = {Tang L, Tian K, Fu X, Xu Y, Wu J, Zhang J, Wang X, Ye C, Wu Q, Wu W, Feng C and Zhang QC},
+    title   = {Resolving cell-cell interaction networks and their molecular logic in complex tissues},
+    journal = {Nature Methods},
+    year    = {2026},
+    doi     = {XXX},
+    url     = {XXX},
+}
 ```
 
 <!-- CONTACT -->
