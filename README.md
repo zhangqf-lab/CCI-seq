@@ -26,8 +26,8 @@ Raw sequence reads and count matrices generated in this study are available at G
 ## Analysis pipeline
 <p align="justify" >
 Following sequencing, two 10x standard FASTQ libraries are generated: <b>the mRNA library</b> and <b>the combinatorial index library</b>. </p>
-<p align="justify" >
-For the mRNA library, we utilize the ``cellranger count`` pipeline to perform standardized preprocessing, yielding a cell-by-gene expression matrix. </p>
+
+For the mRNA library, we utilize the `cellranger count` pipeline to perform standardized preprocessing, yielding a cell-by-gene expression matrix. 
 
 ```
 cellranger count \
@@ -42,8 +42,8 @@ For the combinatorial index library, we have established a standardized analytic
 
 ```
 - **Step 1: data preprocessing** 
-<p align="justify" >
-This step involves deduplication, adapter trimming, denoising, and format standardization. It converts the input FASTQ files into a `processed.txt` file, the content of which is shown below: </p>
+
+This step involves deduplication, adapter trimming, denoising, and format standardization. It converts the input FASTQ files into a `processed.txt` file, the content of which is shown below:
 <p align="center"><img src="figs/processed_demo.png" width=80% /></p>
 
 <p align="justify" >The three columns from left to right represent <b>barcode</b>, <b>UMI</b>, and <b>combinatorial index</b>, respectively.</p>
@@ -57,8 +57,8 @@ This step aligns the mRNA library with the combinatorial index library using cel
 Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to rank 2 index ratio, and cell clump sizes—to define a unique CellID (the most abundant index) for each individual cell.</p>
 
 - **Step 3: cell-cell interaction analysis** 
-<p align="justify" >
-We use CellIDs to infer whether cells are from the same clump and introduce two metrics: `Frequency` and `Clump` to evaluate the interaction strength between cell-types. Detailed definitions of these metrics are provided in the Methods section in our paper.</p>
+
+We use CellIDs to infer whether cells are from the same clump and introduce two metrics: `Frequency` and `Clump` to evaluate the interaction strength between cell-types. Detailed definitions of these metrics are provided in the Methods section in our paper.
 ```
 
 ## :round_pushpin: Cite us
