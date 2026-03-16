@@ -42,7 +42,10 @@ For the combinatorial index library, we have established a standardized analytic
 - **Step 1: data preprocessing** 
 <p align="justify" >
 This step involves deduplication, adapter trimming, denoising, and format standardization. It converts the input FASTQ files into a `processed.txt` file, the content of which is shown below: </p>
-<p align="center"><img src="figs/processed_demo.png" width=70% /></p>
+<p align="center"><img src="figs/processed_demo.png" width=80% /></p>
+
+<p align="justify" >The three columns from left to right represent barcode, UMI, and combinatorial index, respectively.</p>
+
 
 - **Step 2: QC**
 
