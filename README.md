@@ -53,11 +53,11 @@ This step aligns the mRNA library with the combinatorial index library using cel
 <p align="justify" >
 :bangbang: <b>Note</b>: For the 10x Genomics 3’ V3.1 Kit employed in our study, a 2-bp discrepancy exists between the corresponding barcodes of the two libraries (refer to xxx for the mapping relationship). </p>
 <p align="justify" >
-Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to rank 2 index ratio, and cell clump sizes—to define a unique CellID for each individual cell.</p>
+Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to rank 2 index ratio, and cell clump sizes—to define a unique CellID (the most abundant index) for each individual cell.</p>
 
 - **Step 3: cell-cell interaction analysis** 
-
-
+<p align="justify" >
+We use CellIDs to infer whether cells are from the same clump and introduce two metrics—`Frequency` and `Clump`-to evaluate the interaction strength between cell-types. Detailed definitions of these metrics are provided in the Methods section in our paper.</p>
 
 ## :round_pushpin: Cite us
 If you find this study useful for your research, we kindly ask that you cite our paper:
