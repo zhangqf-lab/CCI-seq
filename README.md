@@ -40,7 +40,6 @@ cellranger count \
 <p align="justify" >
 For the combinatorial index library, we have established a standardized analytical pipeline from scratch, encompassing <b>data preprocessing</b>, <b>quality control (QC)</b>, and <b>cell-cell interaction analysis</b>.</p>
 
-```
 - **Step 1: data preprocessing** 
 
 This step involves deduplication, adapter trimming, denoising, and format standardization. It converts the input FASTQ files into a `processed.txt` file, the content of which is shown below:
@@ -59,7 +58,6 @@ Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to
 - **Step 3: cell-cell interaction analysis** 
 
 We use CellIDs to infer whether cells are from the same clump and introduce two metrics: `Frequency` and `Clump` to evaluate the interaction strength between cell-types. Detailed definitions of these metrics are provided in the Methods section in our paper.
-```
 
 ## :round_pushpin: Cite us
 If you find this study useful for your research, we kindly ask that you cite our paper:
