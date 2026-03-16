@@ -51,15 +51,13 @@ This step involves deduplication, adapter trimming, denoising, and format standa
 <p align="justify" >
 This step aligns the mRNA library with the combinatorial index library using cell barcodes.</p> 
 <p align="justify" >
-:bangbang: <b>Note</b>: For the 10x Genomics 3’ V3.1 Kit employed in our study, a 2-bp discrepancy exists between the corresponding barcodes of the two libraries (refer to xxx for the mapping relationship). </p>
+:bangbang: <b>Note</b>: For the 10x Genomics 3’ V3.1 Kit employed in our study, a 2-bp discrepancy exists between the corresponding barcodes of the two libraries (refer to XXX for the mapping relationship). </p>
 <p align="justify" >
 Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to rank 2 index ratio, and cell clump sizes—to define a unique CellID (the most abundant index) for each individual cell.</p>
 
 - **Step 3: cell-cell interaction analysis** 
 
-<p align="justify" >
 We use CellIDs to infer whether cells are from the same clump and introduce two metrics: `Frequency` and `Clump` to evaluate the interaction strength between cell-types. Detailed definitions of these metrics are provided in the Methods section in our paper.
-</p>
 
 <p align="justify" >
 <b>We have provided analysis examples for multiple samples in the accompanying notebooks (https://github.com/zhangqf-lab/CCI-seq/tree/main/notebook) for your reference.</b>
@@ -68,7 +66,7 @@ We use CellIDs to infer whether cells are from the same clump and introduce two 
 ## :round_pushpin: Cite us
 If you find this study useful for your research, we kindly ask that you cite our paper:
 ```
-@article{Brixi2026,
+@article{XXX,
     author  = {Tang L, Tian K, Fu X, Xu Y, Wu J, Zhang J, Wang X, Ye C, Wu Q, Wu W, Feng C and Zhang QC},
     title   = {Resolving cell-cell interaction networks and their molecular logic in complex tissues},
     journal = {Nature Methods},
