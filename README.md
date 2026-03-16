@@ -1,8 +1,8 @@
-# :sparkles: SMRTnet :sparkles: 
+# :sparkles: CCI-seq :sparkles: 
 
 This repository provides the official implementation of the data analysis pipeline described in our study：
 
-## Resolving cell-cell interaction networks and their molecular logic in complex tissues
+## :dart: SResolving cell-cell interaction networks and their molecular logic in complex tissues
 
 <p align="justify" >
 Cells in complex organisms function through extensive interactions, yet mapping these interaction networks at scale remains challenging. Here, we present CCI-seq, a high-throughput method to unbiasedly capture <ins>cell</ins>-<ins>cell</ins> </ins>interactions</ins> by <b>combining cell clump combinatorial indexing with single-cell sequencing</b>.
