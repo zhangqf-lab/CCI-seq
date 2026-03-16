@@ -1,4 +1,4 @@
-# :sparkles: CCI-seq :sparkles: 
+
 
 This repository provides the official implementation of the data analysis pipeline described in our study：
 
