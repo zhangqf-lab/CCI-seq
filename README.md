@@ -39,17 +39,20 @@ cellranger count \
 ```
 <p align="justify" >
 For the combinatorial index library, we have established a standardized analytical pipeline from scratch, encompassing <b>data preprocessing</b>, <b>quality control (QC)</b>, and <b>cell-cell interaction analysis</b>.</p>
+
 - **Step 1: data preprocessing** 
 <p align="justify" >
 This step involves deduplication, adapter trimming, denoising, and format standardization. It converts the input FASTQ files into a `processed.txt` file, the content of which is shown below: </p>
 <p align="center"><img src="figs/processed_demo.png" width=80% /></p>
 
 <p align="justify" >The three columns from left to right represent <b>barcode</b>, <b>UMI</b>, and <b>combinatorial index</b>, respectively.</p>
+
 - **Step 2: QC**
 <p align="justify" >
 This procedure aligns the mRNA library with the combinatorial index library using cell barcodes. 
 :bangbang:  It is important to note that within the 10x Genomics 3’ V3.1 system, barcodes assigned to the same cell exhibit a 2-bp discrepancy between the mRNA and index libraries, as detailed in (xxxxxx). 
 Subsequently, we perform rigorous quality control (QC) and filtering on the index abundance, the rank 1 to rank 2 index ratio, and cell clump sizes—to define a unique CellID for each individual cell.</p>
+
 - **Step 3: cell-cell interaction analysis** 
 
 
