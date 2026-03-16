@@ -10,7 +10,7 @@ Cells in complex organisms function through extensive interactions, yet mapping 
 
 ## Datasets
 <p align="justify" >
-Raw sequence reads and count matrices generated in this study are available at GSA (Genome Sequence Archive) with accession number <b>PRJCA034558</b>. All processed data supporting the key findings of this study are available at Zenodo repository (https://doi.org/10.5281/zenodo.17445811) or from the corresponding author upon reasonable request. The publicly available mouse small intestine Visium HD dataset can be accessed from the 10x Genomics website.
+Raw sequence reads and count matrices generated in this study are available at GSA (Genome Sequence Archive) with accession number <b>PRJCA034558</b>. All processed data supporting the key findings of this study are available at Zenodo repository (https://doi.org/10.5281/zenodo.17445811) or from the corresponding author upon reasonable request. The publicly available mouse small intestine Visium HD dataset can be accessed from the 10x Genomics website (https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-intestine).
 </p>
 
 ## Requirements
