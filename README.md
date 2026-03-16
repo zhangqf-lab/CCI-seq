@@ -9,3 +9,10 @@ Processed files are available for download at https://doi.org/10.5281/zenodo.174
 ## Authors
 Kang Tian (tiankang@mail.tsinghua.edu.cn)
 
+@article{YourName2026CCIseq,
+  title={CCI-seq: A high-throughput method for mapping cell-cell interactions},
+  author={Lastname, Firstname and Others},
+  journal={Nature Methods / Biorxiv},
+  year={2026},
+  doi={10.1101/xxxx.xx}
+}
