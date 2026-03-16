@@ -39,7 +39,7 @@ cellranger count \
 For the combinatorial index library, we have established a standardized analytical pipeline from scratch, encompassing <b>data preprocessing</b>, <b>quality control (QC)</b>, and <b>cell-cell interaction analysis</b>.
 - **Step 1: data preprocessing** 
 This step involves deduplication, adapter trimming, denoising, and format standardization. It converts the input FASTQ files into a `processed.txt` file, the content of which is shown below:
-<p align="center"><img src="figs/processed_demo.png" width=100% /></p>
+<p align="center"><img src="figs/processed_demo.png" width=70% /></p>
 <p align="justify" >
 - **Step 2: QC**
 
