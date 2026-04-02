@@ -48,9 +48,9 @@ This step involves deduplication, adapter trimming, denoising, and format standa
 <p align="justify" >The three columns from left to right represent <b>barcode</b>, <b>UMI</b>, and <b>combinatorial index</b>, respectively.</p>
 
 - **Step 2: QC**
-<p align="justify" >
-This step aligns the mRNA library with the combinatorial index library using cell barcodes.</p> 
-:bangbang: <b>Note</b>: For the 10x Genomics 3’ V3.1 Kit employed in our study, a 2-bp discrepancy exists between the corresponding barcodes of the two libraries (refer to https://zenodo.org/records/19354406 for the mapping `resource.zip` relationship). 
+
+This step aligns the mRNA library with the combinatorial index library using cell barcodes.
+:bangbang: <b>Note</b>: For the 10x Genomics 3’ V3.1 Kit employed in our study, a 2-bp discrepancy exists between the corresponding barcodes of the two libraries (refer to https://zenodo.org/records/19354406 `resource.zip` for the mapping relationship). 
 <p align="justify" >
 Then, we perform rigorous QC and filtering on the index abundance, the rank 1 to rank 2 index ratio, and cell clump sizes—to define a unique CellID (the most abundant index) for each individual cell.</p>
 
